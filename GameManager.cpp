@@ -339,7 +339,7 @@ void GameManager::draw() {
 
     glutSwapBuffers();
     glFlush();
-    std::cout<<"draw : "<<CLOCKS_PER_SEC/(double)(clock()-prev_time)<<"\n";
+    // std::cout<<"draw : "<<CLOCKS_PER_SEC/(double)(clock()-prev_time)<<"\n";
     while((double)(clock()-prev_time)/CLOCKS_PER_SEC < 1.0f/FPS);
     prev_time = clock();
 }

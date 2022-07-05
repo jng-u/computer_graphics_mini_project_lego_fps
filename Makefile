@@ -1,6 +1,6 @@
 CFLAGS = -std=c++17 -O2
 LDFLAGS = -lglut -lGL -lGLEW -lGLU -lOpenGL
-INCLUDES = 
+INCLUDES = -I./include
 
 TARGET = output
 OBJECTS =  main.o bmpfuncs.o Button.o GameManager.o Object.o Player.o Block.o 
